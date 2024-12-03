@@ -1,20 +1,47 @@
-nav{
-    display: flex;
-}
-nav >ul{
-    display: flex;
-    text-decoration: none;
-}
+/* sheardd common font styls */
 body{
-    // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 800
-
-.open-sans-<uniquifier> {
-  font-family: "Open Sans", sans-serif;
+   
+  font-family: "Open Sans", serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings="wdth" 100;
+
 }
+
+
+/* nav related style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-pr{
+    color: #FD6E0A;
+}
+.btn-pr{
+    border-radius: 5px;
+    background:#FD6E0A ;
+    font-weight: 200px;
+    border: 0px;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 10px 30px;
+    
+}
+.nav-tittle{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+  margin-right: 50px;
+}
+nav li>a{
+    text-decoration: none;
 }
